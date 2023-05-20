@@ -1,0 +1,63 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://nodes/menus/InputMappedButton.gd" type="Script" id=1]
+[ext_resource path="res://menus/FullWidthButtonPanel.tscn" type="PackedScene" id=2]
+[ext_resource path="res://mods/bloodyscythe_refresh_noticeboard_quests/menus/CustomFullWidthButtonPanel.gd" type="Script" id=3]
+
+[sub_resource type="StyleBoxEmpty" id=1]
+
+[node name="CustomFullWidthButtonPanel" type="Control"]
+script = ExtResource( 3 )
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="FullWidthButtonPanel" parent="." instance=ExtResource( 2 )]
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 1018.0
+margin_right = 1920.0
+margin_bottom = 1080.0
+size_flags_horizontal = 9
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="CustomButton" type="Button" parent="FullWidthButtonPanel/HBoxContainer" index="0"]
+margin_right = 98.0
+margin_bottom = 52.0
+custom_styles/hover = SubResource( 1 )
+custom_styles/pressed = SubResource( 1 )
+custom_styles/focus = SubResource( 1 )
+custom_styles/disabled = SubResource( 1 )
+custom_styles/normal = SubResource( 1 )
+text = "Refresh"
+expand_icon = true
+script = ExtResource( 1 )
+action = "ui_action_1"
+
+[node name="Control" type="Control" parent="FullWidthButtonPanel/HBoxContainer" index="1"]
+margin_left = 162.0
+margin_right = 1444.0
+margin_bottom = 52.0
+size_flags_horizontal = 3
+
+[node name="BackButton" type="Button" parent="FullWidthButtonPanel/HBoxContainer" index="2"]
+margin_left = 1508.0
+margin_right = 1752.0
+margin_bottom = 52.0
+custom_styles/hover = SubResource( 1 )
+custom_styles/pressed = SubResource( 1 )
+custom_styles/focus = SubResource( 1 )
+custom_styles/disabled = SubResource( 1 )
+custom_styles/normal = SubResource( 1 )
+text = "UI_BUTTON_BACK"
+expand_icon = true
+script = ExtResource( 1 )
+action = "ui_cancel"
+
+[connection signal="pressed" from="FullWidthButtonPanel/HBoxContainer/CustomButton" to="." method="_on_CustomButton_pressed"]
+[connection signal="pressed" from="FullWidthButtonPanel/HBoxContainer/BackButton" to="." method="_on_BackButton_pressed"]
+
+[editable path="FullWidthButtonPanel"]
