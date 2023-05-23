@@ -1,36 +1,21 @@
-Preamble:
+MIT License
 
-This license applies to Refresh Noticeboard Quests (referred to as "the 
-mod"), a modification for Cassette Beasts (referred to as "the game").
-Refresh Noticeboard Quests is designed to work in conjunction with 
-Cassette Beasts and enhance its functionality. The mod is separate and 
-independent from the game. This license governs the distribution and 
-modification of the mod and does not extend to or modify the license of 
-the game.
+Copyright (c) 2023 BloodyScythe
 
-License:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-Refresh Noticeboard Quests
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-This mod is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 2 of the License, or
-(at your option) any later version.
-
-This mod is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this mod. If not, see <http://www.gnu.org/licenses/>.
-
-The source code of the mod, including any modifications or extensions 
-made to the game for the purposes of this mod, is covered by the terms 
-of the GNU General Public License. However, the closed source code of 
-the game is not included or covered by this license.
-
-Please refer to the licensing agreements, terms of use, or modding 
-policies provided by the game's developer or publisher for information 
-on the usage, distribution, and modification of the game.
-
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
